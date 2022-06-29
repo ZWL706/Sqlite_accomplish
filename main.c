@@ -161,6 +161,7 @@ int main(int argc, char *argv[])
     InputBuffer *inputBuffer = new_input_buffer();
     while (true)
     {
+        
         print_promt();
         read_input(inputBuffer);
         //非sql语句都为.xxx形式
